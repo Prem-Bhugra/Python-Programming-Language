@@ -1,0 +1,8 @@
+s1= set({1,2,3,4,5})
+s2=s1.union({4,5,6,7})
+s3=s1.intersection({4,5,6,7})
+s4=set({9,10,11,12})
+print(s1,s2,s3,s4.isdisjoint(s1))
+s1.add("Prem")
+s1.remove(2)
+print(s1)
